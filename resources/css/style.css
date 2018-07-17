@@ -1,0 +1,1249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.1s linear 0s;
+    -o-transition: all 0.1s linear 0s;
+    -moz-transition: all 0.1s linear 0s;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.padding-zero {
+    padding: 0;
+}
+
+.login {
+    display: inline-block;
+    margin-left: 20%;
+    z-index: 10010000;
+    border-radius: 30px;
+    overflow: hidden;
+    float: left;
+    margin-top: 19px;
+}
+
+.checkmail {
+    display: inline-block;
+    margin-left: 9%;
+    z-index: 10010000;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-top: 19px;
+    color: #efefef;
+    background-color: #444;
+    padding: 3px 7px;
+    text-align: center;
+}
+
+.sign-up {
+    display: inline-block;
+    margin-left: 10px;
+    z-index: 10010000;
+    border-radius: 30px;
+    overflow: hidden;
+    float: left;
+    margin-top: 19px;
+}
+
+.login a, .sign-up a {
+    display: inline-block;
+    background-color: #FAC800;
+    padding: 5px 15px;
+    color: #efefef;
+    text-shadow: #000 0 0 1px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.section {
+    padding: 70px 0;
+}
+
+footer.section {
+    padding: 20px 0;
+}
+
+.heading1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: 20px;
+    text-transform: capitalize;
+    padding: 0 50px;
+}
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    left: 40px;
+    top: 0;
+
+}
+
+.logo img {
+    height: 100px;
+}
+
+/*Beginning OF CAROUSEL*/
+section {
+    width: 100%;
+}
+
+.main-container {
+    padding: 0px;
+    padding-right: 63px;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+.skyblue {
+    background-color: #22c8ff;
+}
+
+.deepskyblue {
+    background-color: #00bfff;
+}
+
+.darkerskyblue {
+    background-color: #00a6dd;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel .item {
+    min-height: 350px;
+    height: 100%;
+    width: 100%;
+}
+
+/*For Each Slider Of The Three*/
+
+.cap-social {
+    top: 60%;
+    width: 50%;
+    left: 23%;
+    margin-left: -161px;
+    right: 33%;
+    padding-bottom: 97px;
+}
+
+.cap-smart {
+    bottom: 36%;
+    width: 70%;
+    left: 14%
+}
+
+.cap-inter {
+    top: 67%;
+    width: 70%;
+    left: 10%;
+    margin-left: -115px;
+    margin-bottom: 241px;
+}
+
+/*first slide ---------------------------------------------*/
+
+.cap1 {
+    background-color: rgba(0, 0, 0, .95);
+    color: #efefef;
+    text-shadow: #005 0 0 1px;
+    text-align: center;
+    margin: 0 5%;
+    width: 40%;
+    text-transform: uppercase;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 34px;
+    font-size: 2.6vw;
+    word-spacing: 2px;
+    letter-spacing: -3px;
+    padding: .58em;
+}
+
+.cap11 {
+    font-size: 26px;
+    font-size: 1.9vw;
+    background-color: rgba(243, 146, 0, .8);
+    color: #efefef;
+    text-align: center;
+    padding: 18px 0;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    word-spacing: 2px;
+    margin-top: 0px;
+    letter-spacing: -3px;
+}
+
+/*//End Of First Slider --------------------------------------------------*/
+
+/*//Second Slider ------------------------------------------------------*/
+
+.cap2 {
+    background-color: rgba(0, 0, 0, .9);
+    color: #efefef;
+    text-shadow: #FAC800 0 0 1px;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+    width: 40%;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 34px;
+    font-size: 2.6vw;
+    word-spacing: 2px;
+    letter-spacing: -3px;
+}
+
+.cap22 {
+    font-size: 26px;
+    font-size: 1.9vw;
+    background-color: rgba(0, 102, 55, .8);
+    color: #efefef;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    word-spacing: 2px;
+    letter-spacing: -3px;
+    padding: .5em;
+    margin-top: 0px;
+}
+
+/*//End Of second Slider --------------------------------------------------*/
+
+/*//Third Slider ------------------------------------------------------*/
+.cap-inter {
+    top: 67%;
+    width: 70%;
+    left: 10%;
+    width: 63%;
+    margin-left: -115px;
+    margin-bottom: 241px;
+}
+
+.cap-inter > img {
+    margin-left: 115px;
+}
+
+.cap3 {
+    background-color: rgba(255, 255, 255, .95);
+    color: #000;
+    text-shadow: #003 0 0 1px;
+    text-align: center;
+    margin: 0;
+    margin-left: 22%;
+    padding: 0 0;
+    width: 45%;
+    text-transform: uppercase;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 30px;
+    font-size: 2.6vw;
+    word-spacing: 2px;
+    letter-spacing: -3px;
+    margin-bottom: -20px;
+}
+
+.cap33 {
+    font-size: 24px;
+    font-size: 1.8vw;
+    background-color: rgba(0, 0, 77, .9);
+    color: #efefef;
+    text-align: center;
+    padding: 22px 0;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    word-spacing: 2px;
+    letter-spacing: -3px;
+}
+
+/*//END OF Third Slider ---------------------------------------------------*/
+
+.carousel-caption h3 {
+    padding: .5em;
+}
+
+/* Animation delays */
+.carousel-caption .cap-social > h3:first-child {
+    animation-delay: 1s;
+}
+
+.carousel-caption h3:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.carousel-caption button {
+    animation-delay: 3s;
+}
+
+/*END OF CAROUSEL*/
+
+.why {
+    background-color: #fefefe;
+}
+
+.why h1 {
+    font-weight: bold;
+    color: #FAC800;
+    margin-bottom: 50px;
+    font-family: 'Julius Sans One';
+}
+
+.why .why-box {
+    color: #76B536;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.why .why-box img {
+    width: 60px;
+    height: 60px;
+}
+
+.why .why-box p {
+    font-size: 24px;
+    font-family: 'Quicksand';
+    line-height: 30px;
+    font-weight: bold
+}
+
+.why .why-box .last-center p {
+    margin-top: 15px;
+}
+
+.social-media-box {
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.why-social-media h1 {
+    font-weight: bold;
+    color: #FAC800;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+}
+
+.social-media-box::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 70%;
+    background-color: #ccc;
+    height: 1px;
+}
+
+.social-media-box h3 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #012840;
+    font-family: 'Quicksand';
+}
+
+.social-media-box p {
+    width: 100%;
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: #76B536;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    margin-left: 3%;
+
+}
+
+.why-social-media > div > p {
+    margin-top: 60px;
+    text-align: center;
+    color: #FAC800;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Quicksand';
+
+}
+
+.services {
+    background-image: url("../images/backg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0 20px 0;
+}
+
+.services h1 {
+    font-size: 30px;
+    color: #FAC800;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: 'Julius Sans One';
+
+}
+
+.services h2 {
+    font-family: 'Julius Sans One';
+    color: #fafafa;
+    text-shadow: #fff 0 0 1px;
+}
+
+.services .img-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services .icons-image p {
+    color: #efefef;
+    font-size: 16px;
+    margin-top: 7px;
+    width: 115%;
+    margin-left: -10%;
+    font-family: 'Julius Sans One';
+    height: 40px;
+}
+
+.pricing {
+    background-color: #fefefe;
+}
+
+.pricing h1 {
+    color: #76B536;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One';
+}
+
+.pricing .package {
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px 0;
+    position: relative;
+}
+
+.pricing .package > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pricing .package-box {
+    border: 1px solid #aaa;
+    border-top: none;
+    padding-bottom: 15px;
+}
+
+.pricing .p-head {
+
+    color: #efefef;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Julius Sans One';
+    font-weight: bolder;
+    padding: 20px 10px;
+    text-shadow: #333 0 0 1px;
+
+}
+
+.p1 {
+    background-color: #00C8FA;
+
+}
+
+.p2 {
+    background-color: #76B536;
+}
+
+.p3 {
+    background-color: #FAC800;
+}
+
+.pricing .p-description {
+    margin: 0 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #222;
+    padding: 10px 30px;
+    border-bottom: 1px solid #555;
+    font-size: 16px;
+
+}
+
+.pricing .p-title {
+    padding: 4px 10px;
+    color: #222;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+
+}
+
+.pricing .p-content {
+    display: inline-block;
+    padding: 3px 0px;
+    color: #222;
+    font-size: 14px;
+
+
+}
+
+.pricing .p-box-e {
+    background-color: #eee;
+    padding: 5px 0;
+    display: block;
+    overflow: hidden;
+
+
+}.pricing .p-box-o {
+    background-color: #fff;
+    padding: 5px 0;
+    display: block;
+    overflow: hidden;
+
+}
+
+.package-qoute > p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Julius Sans One';
+    color: #012840;
+    text-transform: capitalize;
+
+}
+
+.paypal-list {
+    width: 220px;
+    margin: auto;
+}
+
+.paypal-list form {
+    width: 100%;
+    margin: auto;
+}
+
+.paypal-list input[type="image"] {
+    display: inline-block;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: #012840;
+    border-color: #02436B;
+}
+
+.btn-custom:hover {
+    background-color: #8C0F0F;
+    border-color: #BA1414;
+}
+
+.member-botton a {
+    width: 230px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.our-team {
+    background-color: #efefef;
+}
+
+.our-team h1 {
+    font-weight: bold;
+    color: #BA1414;
+    margin-top: 0;
+    font-size: 45px;
+}
+
+.member-card {
+    padding: 3px;
+    margin-top: 20px;
+    transition: all .5s ease 0s;
+
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 7px;
+    padding-bottom: 30px;
+    transition: all .5s linear 0s;
+    border-bottom: 6px transparent solid;
+
+}
+
+.member-card .background {
+    width: 100%;
+    position: relative;
+}
+
+.member-card .background img {
+    width: 100%;
+
+}
+
+.team-member h3 {
+    color: #013B5E;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+    text-transform: capitalize;
+    margin: 40px 0 20px 0;
+}
+
+.team-member p {
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: lighter;
+    color: #012B45;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.links {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(140, 20, 20, 0);
+    transition: all .5s linear 0s;
+
+}
+
+.links i {
+    font-size: 55px;
+    color: #efefef;
+    margin: 0 7px;
+    margin-top: 40%;
+}
+
+.member-card:hover .links {
+    opacity: 1;
+    background-color: rgba(140, 20, 20, 0.9);
+
+}
+
+.member-card:hover .team-member h3 {
+    color: #8C0F0F;
+}
+
+.team-member:hover {
+    border-bottom: 6px #8C0F0F solid;
+}
+
+.about {
+    display: none;
+    color: #132141;
+    background-color: #efefef;
+}
+
+.clients {
+    background-image: url("../images/backg2.png");
+    background-attachment: fixed;
+}
+
+.clients h1 {
+    color: #fff;
+    text-shadow: #fff 0 0 1px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.client {
+    overflow: hidden;
+    padding: 0;
+    margin: 15px 0;
+    max-height: 200px;
+
+}
+
+.client img {
+    height: 100%;
+    background-size: cover;
+}
+
+.fix-cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.client-cover {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(140, 15, 15, .95);
+    opacity: 0;
+    text-align: center;
+}
+
+.client-cover:hover {
+    opacity: 1;
+}
+
+.client-cover h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Quicksand;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: -550px;
+    margin-top: -500px;
+    transition: all .5s ease 0s;
+
+}
+
+.client-cover:hover h3 {
+    margin-left: 0;
+    margin-top: 40px;
+
+}
+
+.client-cover a {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 400px;
+    margin-top: 400px;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 7px 10px 2px 10px;
+    transition: all .5s ease 0s;
+
+}
+
+.client-cover:hover a {
+    margin-top: 12px;
+    margin-left: 0;
+    border-radius: 50%;
+
+}
+
+.subscribe {
+    background-color: #012B45;
+    padding: 30px;
+}
+
+.subscribe p {
+    font-size: 30px;
+    font-family: 'Julius Sans One';
+    color: #efefef;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: #000 0 0 2px, #fff 0 0 1px;
+}
+
+.subscribe > p > span > button {
+    color: #efefef;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+.subscribe-form label {
+    color: #012B45;
+}
+
+.subscribe-form > div > input[type='submit'] {
+    background-color: #012B45 !important;
+}
+
+.subscribe-form > div > input[type='submit']:hover {
+    background-color: #001a35 !important;
+}
+
+footer {
+    background-color: #222;
+    color: #efefef;
+    position: relative;
+}
+
+footer .contact a {
+    color: #efefef;
+    text-decoration: none;
+
+}
+
+footer h3 {
+    font-weight: bolder;
+    font-family: 'Julius Sans One';
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+footer p {
+    line-height: 20px;
+    text-align: justify;
+    color: #efefef;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin: 5px 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #111;
+}
+
+footer .social-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .social-links a {
+    font-size: 26px;
+    color: #efefef;
+    padding: 0 10px;
+}
+
+.facebook:hover {
+    color: #44619D;
+}
+
+.twitter:hover {
+    color: #00ACED;
+}
+
+.insta:hover {
+    color: #964B00;
+}
+
+.gplus:hover {
+    color: #C53929;
+}
+
+.linked:hover {
+    color: #1A84BC;
+}
+
+/* bootstrap over right ***********************************************************************************************/
+
+.navbar {
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 70px;
+    z-index: 1000000;
+}
+
+.container-fluid > .navbar-header {
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+.navbar-default {
+    background-color: rgba(20, 20, 20, .9);
+    border: none;
+}
+
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 30px;
+    background-color: #eee;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    padding: 25px 15px;
+}
+
+.navbar-right {
+    margin-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #bbb;
+    font-family: 'Julius Sans One';
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.nav > li > a {
+    padding: 25px 7px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.nav > li > a::after {
+    content: "";
+    width: 0%;
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    height: 2px;
+    display: inline-block;
+    background-color: #fff;
+    transition: all 0.5s ease 0s;
+
+}
+
+.active {
+    background-color: transparent;
+}
+
+.nav > li > a:hover::after {
+    width: 100%;
+    left: 0%;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.navbar-default .navbar-nav > .active > a::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: 15px;
+    height: 2px;
+    display: inline-block;
+    background-color: #fff;
+    transition: all 0.5s ease 0s;
+
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+/*slider section*/
+
+/*.carousel-inner{*/
+/*max-height: 650px;*/
+/*overflow: hidden;*/
+/*}*/
+.carousel-inner > .item {
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.carousel-control {
+    margin: 0 2px;
+    width: 60px;
+    height: 60px;
+    margin-top: 25%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    font-weight: lighter;
+}
+
+.carousel-control:hover {
+    border-radius: 0px;
+    height: 80px;
+    margin-top: 24%;
+}
+.modal-dialog{
+    width: 95%;
+}
+.modal-content {
+    margin-top: 30%;
+    width: 100%;
+}
+.model-content-edit{
+    margin-top: 10%;
+    padding: 20px;
+    max-height: 450px;
+    overflow-y: scroll;
+    text-align: justify;
+}
+/*     cpanel sytles */
+.addadmin {
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.old-admins {
+    margin-top: 100px;
+}
+
+.admin-row {
+    min-height: 30px;
+    border-bottom: 1px #000 solid;
+    margin-top: 10px;
+}
+
+.admin-delete {
+    border-left: 1px solid #000;
+}
+
+.backgr {
+    background-image: url("../images/backgmor.PNG");
+    width: 100%;
+    min-height: 550px;
+    background-size: cover;
+}
+
+.panel-body .form-group > .form-control:hover {
+
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
+}
+
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+}
+
+.panel-login > .panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align: center;
+}
+
+.panel-login > .panel-heading a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.panel-login > .panel-heading a.active {
+    color: #029f5b;
+    font-size: 18px;
+}
+
+.panel-login > .panel-heading hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+}
+
+.panel-login input[type="text"], .panel-login input[type="email"], .panel-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.panel-login input:hover,
+.panel-login input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+#login-form-link {
+    color: #ffc612;
+}
+
+.btn-login {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+    background-color: transparent;
+    border: none;
+}
+
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register {
+    background-color: #59B2E6;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+
+.well-sm {
+    width: 40%;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+legend > p {
+    text-align: center;
+    color: #02add8;
+}
+
+.malefem {
+    margin: auto;
+    margin-left: 168px;
+}
+
+.form {
+    width: 100%;
+}
+
+/* style for cpanel user details **************************************************************/
+.details-box {
+    margin-top: 100px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+}
+
+.details-box span {
+    font-size: 26px;
+    font-weight: lighter;
+
+}
+
+.details-box .box-logo img {
+    float: right;
+    width: 100px;
+    display: block;
+    margin-top: 50px;
+
+}
+
+.details-box .sub-row .head {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.details-box .sub-row .content {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.details-box .sub-row .contentp {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 15%;
+}
+
+/*******************************  agreement styles ***********************************/
+
+.agreement{
+    padding: 95px 0;
+}
+
+
+.font-18{
+    font-size: 18px;
+}
+.indent-50{
+    text-indent: 50px;
+}
+.sub-ol{
+    margin-left: 50px;
+}
+
+.agree-btn{
+    display: block;
+    margin-top: 50px;
+}
